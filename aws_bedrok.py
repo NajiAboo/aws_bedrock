@@ -9,8 +9,8 @@ model_id = 'mistral.mistral-7b-instruct-v0:2'
 client = boto3.client(
     service_name = 'bedrock-runtime',
     region_name = 'us-east-1',
-    aws_access_key_id = 'AKIAV6E5X54WU7N4LG45',
-    aws_secret_access_key = 'BeB0uEGOj4RZtjg+8LpywTrVn3HQh/zINzom1ppx'
+    aws_access_key_id = 'Your ACCESS KEY',
+    aws_secret_access_key = 'Your SECRETE KEY'
 )
 
 prompt = "Describe about aWS bedrock in a single sentence"
