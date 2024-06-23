@@ -1,6 +1,7 @@
 import boto3
 import json
 
+
 content = "application/json"
 accept = "application/json"
 

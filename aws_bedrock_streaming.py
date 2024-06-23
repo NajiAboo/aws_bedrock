@@ -6,6 +6,7 @@ accept = "application/json"
 
 model_id = 'mistral.mistral-7b-instruct-v0:2'
 
+
 #uncomment the aws_access_key_id and aws_secret_access_key and add your keys
 client = boto3.client(
     service_name = 'bedrock-runtime',
