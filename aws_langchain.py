@@ -13,8 +13,8 @@ from langchain_community.llms import Bedrock
 aws_client = boto3.client(
     service_name="bedrock-runtime",
     region_name="us-east-1",
-    aws_access_key_id ="AKIAV6E5X54W6XKSEAWS",
-    aws_secret_access_key = "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"
+    aws_access_key_id ="",
+    aws_secret_access_key = ""
 )
 
 
