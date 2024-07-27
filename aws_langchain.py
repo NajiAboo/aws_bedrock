@@ -10,11 +10,12 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.llms import Bedrock
 
 
+## Uncomment and add your key 
 aws_client = boto3.client(
     service_name="bedrock-runtime",
     region_name="us-east-1",
-    aws_access_key_id ="",
-    aws_secret_access_key = ""
+   # aws_access_key_id ="YOUR KEY ID",
+    #aws_secret_access_key = "YOUR SECRETE KEY"
 )
 
 
